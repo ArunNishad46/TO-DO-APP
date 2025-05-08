@@ -52,6 +52,7 @@ displaytask()
 function editTask(index){
     edit_index = index;
     input.value = tasks[index].task;
+    input.focus();
     addButton.innerText = "Edit"
 }
 
